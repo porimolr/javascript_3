@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"rel="stylesheet">   
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="java">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mt-4">
+        <h1 class="mb-3" >Java Script</h1>
+        <div class="j_info1">
+          <h2>What is the full meaning of js ?</h2>
+          <button type="button" onclick="dev_html()">answer</button>
+          <h3 id="html"></h3>         
+        </div>
+        <!-- <div class="j_info2">
+          <h2>What is the full meaning of css ?</h2>
+          <button type="button" onclick="dev_css()">answer</button>
+          <h3 id="css"></h3>         
+        </div>
+        <div class="j_info3">
+          <h2>What is the full meaning of cms ?</h2>
+          <button type="button" onclick="dev_cms()">answer</button>
+          <h3 id="cms"></h3>         
+        </div> -->
+      </div>
+    </div>
+    <!-- ex_2 -->
+    <div class="row justify-content-center">
+      <div class="col lg-8 text-center mt-4">
+        <h1 class="text-yellow">2</h1>
+        <h2>image changes</h2>
+        <button class="btn btn-primary" type="button" onclick="ad()">previous</button>
+        <button class="btn btn-danger pev" type="button" onclick="adn()">next</button>
+        <img id="ng" src="images/bbb.png" class="img-fluid" alt="">
+      </div>
+    </div>
+    <!-- ex_3 -->
+    <div class="row justify-content-center">
+      <div class="col lg-8 text-center mt-4">
+        <h1 class="text-yellow">3</h1>
+        <h2>text color change</h2>
+        <button type="button" onclick="t_color()">click me</button>
+        <h3 id="color">BANGLADESH</h3>
+      </div>
+    </div>
+    <!-- ex_4 -->
+    <div class="row justify-content-center">
+      <div class="col lg-8 text-center mt-4">
+        <h1 class="text-yellow">4</h1>
+        <h2>text show/hide</h2>
+        <button class="btn btn-primary" type="button" onclick="show()">show</button>
+        <button class="btn btn-danger pev" type="button" onclick="hide()">hide</button>
+        <h3 id="text">java Script</h3>
+      </div>
+    </div>
+    <!-- ex_5 -->
+    <div class="row justify-content-center">
+      <div class="col lg-8 text-center mt-4">
+        <h1 class="text-yellow">5</h1>
+        <h2>document.write js output</h2>
+        <button class="btn btn-primary" type="button" onclick="dw()">document.write</button>
+      </div>
+    </div>
+        <!-- ex_6 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">6</h1>
+            <h2>window alert</h2>
+            <button class="btn btn-info" type="button" onclick="wa()">alert</button>
+          </div>
+        </div>
+        <!-- ex_7 -->
+    <div class="row justify-content-center">
+      <div class="col lg-8 text-center mt-4">
+        <h1 class="text-yellow">7</h1>
+        <h2>show date and local time</h2>
+        <h3 id="td"></h3>
+        <button type="button" onclick="ld()">click me</button>
+      </div>
+    </div>
+    <!-- ex_8 -->
+    <div class="row justify-content-center">
+      <div class="col lg-8 text-center mt-4">
+        <h1 class="text-yellow">8</h1>
+        <h2>font style change</h2>
+        <button class="btn btn-info" type="button" onclick="fs()">change style</button>
+        <h3 id="f_a">Java Script</h3>
+      </div>
+    </div>      
+        <!-- ex_9 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">9</h1>
+            <h2>console.log   js output</h2>
+            <button class="btn btn-primary" type="button" onclick="clog()">console.log</button>
+          </div>
+        </div>
+        <!-- ex_10 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">10</h1>
+            <h2>var variable</h2>
+            <button class="btn btn-dark" type="button" onclick="va()">result</button>
+            <h3 id="v_a">result</h3>
+          </div>
+        </div>
+        <!-- ex_11 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">11</h1>
+            <h2>let variable</h2>
+            <button class="btn btn-warning" type="button" onclick="lv()">result</button>
+            <h3 id="l_a">result</h3>
+          </div>
+        </div>
+        <!-- ex_12 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">12</h1>
+            <h2>const variable</h2>
+            <button class="btn btn-dark" type="button" onclick="cv()">result</button>
+            <h3 id="c_a">result</h3>
+          </div>
+        </div>
+        <!-- ex_13 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">13</h1>
+            <h2>java script data type</h2>
+            <button class="btn btn-info" type="button" onclick="dt()">result</button>
+            <h3 id="d_a"></h3>
+          </div>
+        </div>
+         <!-- ex_14 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">14</h1>
+            <h2>Assignment Operator (=) </h2>
+            <button class="btn btn-success" type="button" onclick="ao()">result</button>
+            <h3 id="a_a">=</h3>
+          </div>
+        </div>
+        <!-- ex_15 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">15</h1>
+            <h2>Addition Operator (+)</h2>
+            <button class="btn btn-info" type="button" onclick="aao()">result</button>
+            <h3 id="a_aa">111+333 =</h3>
+          </div>
+        </div>
+        <!-- ex_16 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">16</h1>
+            <h2> Multiplication Operator (*)</h2>
+            <button class="btn btn-danger" type="button" onclick="mo()">result</button>
+            <h3 id="m_o">5*5 =</h3>
+          </div>
+        </div>
+        <!-- ex_17 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">17</h1>
+            <h2>Addition Assignment Operator (+=)</h2>
+            <button class="btn btn-info" type="button" onclick="aaa()">result</button>
+            <h3 id="aaa_o">aa2+=aa1 =</h3>
+          </div>
+        </div>
+        <!-- ex_18 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">18</h1>
+            <h2>JavaScript String Comparison Operators</h2>
+            <button class="btn btn-primary" type="button" onclick="co()">result</button>
+            <h3 id="c_o">is A less than B?</h3>
+          </div>
+        </div>
+        <!-- ex_19 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">19</h1>
+            <h2>Arithmetic Operators</h2>
+            <button class="btn btn-info" type="button" onclick="Ao()">result</button>
+            <h3 id="A_o">100+50  3*100 =</h3>
+          </div>
+        </div>
+        <!-- ex_20 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">20</h1>
+            <h2>Adding Strings and Numbers</h2>
+            <button class="btn btn-dark" type="button" onclick="As()">result</button>
+            <h3 id="A_s">2+2 "9"+9 "Hello"+5</h3>
+          </div>
+        </div>
+        <!-- ex_21 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">21</h1>
+            <h2>division operator (/) divides numbers</h2>
+            <button class="btn btn-success" type="button" onclick="doo()">result</button>
+            <h3 id="d_o">200/2 =</h3>
+          </div>
+        </div>
+        <!-- ex_22 -->
+        <div class="row justify-content-center">
+          <div class="col lg-8 text-center mt-4">
+            <h1 class="text-yellow">22</h1>
+            <h2>subtraction operator (-) subtracts numbers</h2>
+            <button class="btn btn-info" type="button" onclick="so()">result</button>
+            <h3 id="s_o">100-40 =</h3>
+          </div>
+        </div> 
+        <!-- ex_23 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">23</h1>
+              <h2>class name change</h2>
+              <button type="button" onclick="count()">answer</button>
+              <p class="p">Lorem ipsum dolor sit amet</p>         
+              <p class="p">Lorem ipsum dolor sit amet</p>         
+              <p class="p">Lorem ipsum dolor sit amet</p>         
+              <p class="p">Lorem ipsum dolor sit amet</p>         
+              <p class="p">Lorem ipsum dolor sit amet</p>         
+          </div>
+        </div>
+        <!-- ex_24 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">24</h1>
+              <h2>tag name selector button count</h2>
+              <button type="button" onclick="bcount()">answer</button>
+          </div>
+        </div>
+        <!-- ex_25 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">25</h1>
+              <h2>onscroll Event</h2>
+              <div class="divv" onscroll="ecount()">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint minima cumque alias voluptas aspernatur voluptates ipsum quia totam! Accusamus sequi quisquam dolores nostrum ad provident laboriosam illo similique numquam maiores?</div>
+              <p>Scrolled <span id="ev">0</span> times.</p>
+          </div>
+        </div>
+        <!-- ex_26 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">26</h1>
+              <h2>onbeforeunload Event</h2>
+              <div  onbeforeunload="onbe()"></div>
+              <a href="https://www.w3schools.com">Click here to go to w3schools.com</a>         
+          </div>
+        </div>
+        <!-- ex_27 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">27</h1>
+            <h2>onblur Event</h2>
+              enter your name <input type="text" id="fname" onblur="onbl()">
+       
+          </div>
+        </div>
+        <!-- ex_28 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">28</h1>
+            <h2>onchange Event</h2>
+            <select id="car" onchange="dc()">
+              <option value="BMW.">BMW</option>
+              <option value="Royal Enfield Classic.">Royal Enfield Classic</option>
+              <option value="Suzuki.">Suzuki</option>
+              <option value="KTM.">KTM</option>
+              <option value="Yamaha YZF-R1M.">Yamaha YZF-R1M</option>
+            </select>
+            <p id="s_car"></p>                 
+          </div>
+        </div>
+        <!-- ex_29 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">29</h1>
+            <h2>oncopy Event</h2>
+            <input type="text" oncopy="oc()" value="Try to copy me">
+            <p id="o_c"></p>                          
+          </div>
+        </div>
+        <!-- ex_30 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">30</h1>
+            <h2>oncut Event</h2>
+            <input type="text" oncut="occ()" value="Try to cut this text">
+            <p id="o_cc"></p>                          
+          </div>
+        </div>
+        <!-- ex_31 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">31</h1>
+            <h2>ondblclick Event</h2>
+            <button type="button" ondblclick="od()">Double click</button> 
+            <p id="o_d">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor delectus magnam earum. Aut, earum libero?</p>                          
+          </div>
+        </div>
+        <!-- ex_32 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">32</h1>
+            <h2>ondragenter Event</h2>
+            <div class="droptarget" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondragover="allowDrop(event)">
+              <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Drag me!</p>
+            </div>
+            <br>
+            <div class="droptarget" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondrop="drop(event)" ondragover="allowDrop(event)"></div>           
+            <p id="demo"></p>                                   
+          </div>
+        </div>
+        <!-- ex_33 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">33</h1>
+            <h2>onended Event</h2>
+            <p>Press play and wait for the audio to end.</p>
+            <audio controls onended="od()">             
+              <source src="./audio/dark-engine.mp3" type="audio/mpeg">
+            </audio>
+            <p id="o_dd"></p>                                    
+          </div>
+        </div>
+        <!-- ex_34 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">34</h1>
+            <h2>onended Event</h2>
+            <button type="button" onclick="er()">result</button>
+            <img src="images.gif" alt="  ">
+            <p id="e_r"></p>                                                   
+          </div>
+        </div>
+        <!-- ex_35 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">35</h1>
+            <h2>onfocus Event</h2>
+            enter your name<input type="text" onfocus="of(this)">                                                   
+          </div>
+        </div>
+        <!-- ex_36 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">36</h1>
+            <h2>oninput Event</h2>
+            <input type="text" id="myInput" oninput="oi()">
+            <p id="o_i"></p>                                                   
+          </div>
+        </div>
+        <!-- ex_37 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">37</h1>
+            <h2>oninvalid Event</h2>
+            <form action="/action_page.php" method="get">
+              Name: <input type="text" oninvalid="alert('You must fill out the form!');" name="name" required>
+              <input type="submit" value="Submit">
+            </form>                                                  
+          </div>
+        </div>
+        <!-- ex_38 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">38</h1>
+            <h2>onloadedmetadata Event</h2>
+            <video class="col-sm-6" controls onloadedmetadata="ol()">
+              <source src="./video/sun.mp4" type="video/mp4">
+              <source src="./video/sun.ogg" type="video/ogg">
+            </video>                
+          </div>
+        </div>
+        <!-- ex_39 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">39</h1>
+            <h2>onmousedown Event</h2>
+            <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">
+            The mouseDown() function sets the color of this text to red.
+            The mouseUp() function sets the color of this text to blue.
+            </p>
+          </div>
+        </div>
+        <!-- ex_40 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">40</h1>
+            <h2>onmouseenter Event</h2>
+            <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="images/sm.png" alt="Smiley" width="40" height="40">
+          </div>
+        </div>
+        <!-- ex_41 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">41</h1>
+            <h2>onmousemove Event</h2>
+            <div class="pointer" onmousemove="om(event)" onmouseout="clearCoor()"></div>
+            <p>Mouse over the rectangle above, and get the coordinates of your mouse pointer.</p>
+            <p id="o_m"></p>
+          </div>
+        </div>
+        <!-- ex_42 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">42</h1>
+            <h2>onpageshow Event</h2>
+            <div onpageshow="op()"></div>
+            <h3>Hello World!</h3>
+          </div>
+        </div>
+        <!-- ex_43 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">43</h1>
+            <h2>onpaste Event</h2>
+            <input type="text" onpaste="opp()" value="Paste something here" size="40">
+            <p id="o_pp"></p>
+          </div>
+        </div>
+        <!-- ex_44 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">44</h1>
+            <h2>onpause Event</h2>
+            <video width="320" height="240" controls onpause="pv()">
+              <source src="./video/sun.mp4" type="video/mp4">
+              <source src="./video/sun.ogg" type="video/ogg">
+            </video>           
+            <p id="v_p"></p>            
+          </div>
+        </div>
+        <!-- ex_45 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">45</h1>
+            <h2>onplaying Event</h2>
+            <video width="320" height="240" controls onplaying="opv()">
+              <source src="./video/sun.mp4" type="video/mp4">
+              <source src="./video/sun.ogg" type="video/ogg">
+            </video>           
+            <p id="ov_p"></p>            
+          </div>
+        </div>
+        <!-- ex_46 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">46</h1>
+            <h2>onreset Event</h2>
+            <form onreset="or()">
+              Enter name: <input type="text">
+              <input type="reset">
+            </form>            
+          </div>
+        </div>
+        <!-- ex_47 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">47</h1>
+            <h2>onsearch Event</h2>
+            <input type="search" id="my" onsearch="os()">
+            <p><strong>Note:</strong> The onsearch event is not supported in Internet Explorer, Firefox or Opera 12 and earlier versions.</p>          
+            <p id="o_ss"></p>                        
+          </div>
+        </div>
+        <!-- ex_48 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">48</h1>
+            <h2>onselect Event</h2>
+            Select some of the text: <input type="text" value="Hello world!" onselect="ose()">                       
+          </div>
+        </div>
+        <!-- ex_49 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">49</h1>
+            <h2>ontoggle Event</h2>
+            <p>Open the details.</p>
+            <details ontoggle="ot()">
+            <summary>Copyright 1999-2014.</summary>
+            <p> - by Refsnes Data. All Rights Reserved.</p>
+            <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+            </details>                      
+          </div>
+        </div>
+        <!-- ex_50 -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center mt-4">
+            <h1 class="text-yellow">50</h1>
+            <h2>onvolumechange Event</h2>
+            <video class="col-sm-6" controls onvolumechange="ov()">
+              <source src="./video/sun.mp4" type="video/mp4">
+              <source src="./video/sun.ogg" type="video/ogg">
+            </video>                      
+            <p>Try to change the volume.</p>           
+            <p id="o_v"></p>                     
+          </div>
+        </div>
+        
+        
+  </div>
+</section>
+
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>
