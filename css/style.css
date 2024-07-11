@@ -1,0 +1,92 @@
+.java{
+
+}
+.java h1{
+    background-color: yellow;
+    border-radius: 40px;
+    width: 40%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.j_info1{
+
+}
+.j_info1 h2{
+    color: yellow;
+    background-color: violet;
+    border-radius: 30px;
+    padding: 10px 0;
+}
+.j_info1 h3{
+    margin-bottom: 50px;
+    color: violet;
+
+
+}
+.j_info2{
+
+}
+.j_info2 h2{
+    color: rgb(0 255 175);
+    background-color: rgb(6, 161, 71);
+    border-radius: 30px;
+    padding: 10px 0;
+
+}
+.j_info2 h3{
+    margin-bottom: 50px;
+    color: rgb(6, 161, 71);
+
+
+}
+.j_info3{
+   
+
+}
+.j_info3 h2{
+    color: rgb(200, 0, 255);
+   background-color: rgb(130 234 238);
+    border-radius: 30px;
+    padding: 10px 0;
+
+}
+.j_info3 h3{
+    margin-bottom: 50px;
+    color:  rgb(130 234 238);
+
+}
+button{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgb(235, 227, 238);
+    margin: 20px 0px 0px -650px;
+}
+img{
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+.pev{
+    margin: 20px -95px 0px 28px;
+}
+
+.divv{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+  }
+  .droptarget {
+    width: 100px; 
+    height: 42px;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  .pointer{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+
+  }
